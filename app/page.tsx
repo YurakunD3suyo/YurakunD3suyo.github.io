@@ -5,6 +5,13 @@ import Image from "next/image";
 export default function Home() {
 	return (
 		<>
+			<Image
+				className="opacity-20 h-full object-cover fixed -z-20"
+				src="https://eownerdead.github.io/zundamon/wallpaper.svg"
+				width={1920}
+				height={1080}
+				alt="はいけいずんだもん"
+			/>
 			<main className="flex min-h-screen flex-col items-center p-24 gap-20">
 				<div className="flex flex-col justify-center items-center w-full">
 					<Image className="w-40 h-40 rounded-full border-2 border-green-100" src="/yura.png" width={200} height={200} alt="Yura" />
@@ -40,13 +47,6 @@ export default function Home() {
 						<p className="text-2xl opacity-65"> Youtube Sub </p>
 					</Button>
 				</div>
-				<Image
-					className="opacity-20 h-full object-cover fixed -z-20"
-					src="https://eownerdead.github.io/zundamon/wallpaper.svg"
-					width={1920}
-					height={1080}
-					alt="はいけいずんだもん"
-				/>
 			</main>
 			<div className="flex flex-col min-h-screen justify-center items-center w-full gap-4">
 				<div className="relative w-full -top-20 hidden sm:block">
