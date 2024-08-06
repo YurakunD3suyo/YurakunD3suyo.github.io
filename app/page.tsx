@@ -7,7 +7,7 @@ export default function Home() {
 		<>
 			<Image
 				className="opacity-20 h-full object-cover fixed -z-20"
-				src="https://eownerdead.github.io/zundamon/wallpaper.svg"
+				src="https://repository-images.githubusercontent.com/735363263/0294c16e-bac5-4c08-b7c3-f50cc0665c6e"
 				width={1920}
 				height={1080}
 				alt="はいけいずんだもん"
